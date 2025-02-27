@@ -12,8 +12,10 @@ function Project(){
                 As stated in the ABOUT section, I created this website as a way
                 for me to properly showcase the projects I create. By doing so, I 
                 hope to advance my web devlopment skills and reinforce my drive to 
-                create projects using CS skills I've developed over the years.
-                http://localhost:5173/home 
+                create projects using CS skills I've developed over the years. I 
+                created this project using React because I learned the basics during
+                meetings for a club I'm in called CSSquared. 
+                https://benevolent-strudel-eb294a.netlify.app/  
             </p>
 
             <h3>

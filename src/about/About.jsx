@@ -31,10 +31,13 @@ function About(){
                 took the time to dive deep into each of the areas of 
                 CS to discover what I really like to do. 
                 This fed into the next realization that I am not as 
-                skilled at programming as I should be. CS majors that 
-                I live next to and am friends with are all able to 
-                create many different things that I don't have the 
-                base knowledge to even start.
+                skilled at programming as I should be. As I am currently,
+                I don't really have the skills to properly develop 
+                professional software at a prestigous company. By 
+                engaging in these personal projects, I will not only 
+                be refining the skills I have, but I will be gaining 
+                programming knowledge in a variety of topics, making 
+                me a much better Computer Scientist.
             </p1>
         </>
         
