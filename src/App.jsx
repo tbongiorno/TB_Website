@@ -13,23 +13,20 @@ function App() {
     
     return(
       <>
-        <h1>STILL IN DEVELOPMENT wrtigkweiptugpwuiegh</h1>
         <Header/>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Projects" element={<Blogs />} />
-        </Routes>
-      </Router>
-      <About/>
-      <br></br>
-      <Project/>
-      <br></br>
-      <Contact/>
-      <br></br>
-      <Footer/>
+        <h1>STILL IN DEVELOPMENT wrtigkweiptugpwuiegh</h1>
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/Projects" element={<Blogs />} />
+          </Routes>
+        </Router>
+        <About/> <br></br>
+        <Project/> <br></br>
+        <Contact/> <br></br>
+        <Footer/>
       </>
     );
 }
