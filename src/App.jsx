@@ -1,14 +1,15 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import About from './about/About.jsx'
-import Contact from "./contact/Contact.jsx"
-import Project from "./projects/Project.jsx"
+import Header from './Components/Header.jsx'
+import Footer from './Components/Footer.jsx'
+import About from './Components/About.jsx'
+import Contact from "./Components/Contact.jsx"
+import Project from "./Components/Project.jsx"
+
+
 
 function App() {
-    
     return(
       <>
-        <h1>STILL IN DEVELOPMENT wrtigkweiptugpwuiegh</h1>
+        <h1>STILL IN DEVELOPMENT</h1>
         <Header/>
         <About/> <br></br>
         <Project/> <br></br>

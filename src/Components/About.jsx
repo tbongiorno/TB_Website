@@ -20,6 +20,8 @@ function About(){
             <h3>
                 Me
             </h3>
+            <img src="/src/assets/tb.jpg" alt="Thomas Bongiorno" width="200" height="300"></img>
+            <br></br>
             <p1>
                 My name is Thomas Bongiorno and as of writing this 
                 I am a Sophomore at Virginia Tech majoring in Computer 
