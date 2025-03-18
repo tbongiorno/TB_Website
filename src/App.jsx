@@ -1,22 +1,32 @@
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./Components/Layout.jsx";
+
 import Header from './Components/Header.jsx'
 import Footer from './Components/Footer.jsx'
 import About from './Components/About.jsx'
 import Contact from "./Components/Contact.jsx"
-import Project from "./Components/Project.jsx"
+import Projects from "./Components/Projects.jsx"
 
 
-
-function App() {
+export default function App() {
     return(
       <>
-        <h1>STILL IN DEVELOPMENT</h1>
         <Header/>
-        <About/> <br></br>
-        <Project/> <br></br>
-        <Contact/> <br></br>
-        <Footer/>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout/>}>
+              <Route index element={<About/>}/>
+              <Route path="Projects" element={<Projects/>}/>
+              <Route path="Contact" element={<Contact/>}/>
+           </Route>
+          </Routes>
+       </BrowserRouter>
+       <Footer/>
       </>
+      
     );
 }
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App/>);

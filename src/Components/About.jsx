@@ -5,6 +5,7 @@ function About(){
             <h2>
                 ABOUT:
             </h2>
+             
             <h3>
                 This Site
             </h3>
@@ -41,6 +42,7 @@ function About(){
                 programming knowledge in a variety of topics, making 
                 me a much better Computer Scientist.
             </p1>
+            
         </>
         
         
